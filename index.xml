@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>konanok&#39;s blog</title>
+    <link>https://konanok.github.io/</link>
+    <description>Recent content on konanok&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 11 Jan 2021 15:18:15 +0800</lastBuildDate><atom:link href="https://konanok.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Hugo和GithubPages搭建个人博客</title>
+      <link>https://konanok.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E5%92%8Cgithubpages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 11 Jan 2021 15:18:15 +0800</pubDate>
+      
+      <guid>https://konanok.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E5%92%8Cgithubpages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>使用Hugo和GithubPages搭建个人博客  本文内容来源于自己的实践及Hugo官方文档、Github Pages官方文档
+ 安装Hugo macOS系统中，可以使用Homebrew来安装Hugo的二进制文件：
+brew install hugo 安装完成后，检查Hugo是否安装成功：
+hugo version 新建博客网站 hugo new site blog 此命令会在当前文件夹下面创建一个名为blog的文件夹，里面就是Hugo创建的静态网站的文件。
+ 上述命令中的blog可以替换为任意名称。
+ 对此网站对所有操作均需要进入此网站的根目录下，即blog目录中。切换当前路径：
+cd blog 创建第一篇文章 hugo new posts/使用Hugo和GithubPages搭建个人博客.md 此命令会在content/posts目录下面创建文件使用Hugo和GithubPages搭建个人博客.md，并且在文件顶部自动生成了yaml格式的元数据，来声明此文件的相关信息。如本文的元数据是：
+title: &amp;#34;使用Hugo和GithubPages搭建个人博客&amp;#34; date: 2021-01-11T15:18:15+08:00 draft: true  其中：
+title是文章的标题，与文件名相同
+date是创建此文章的时间戳
+draft: true表示此文章是草稿类型的
+ 此命令的一般格式为：
+hugo new &amp;lt;CATEGORY&amp;gt;/&amp;lt;FILE&amp;gt;.&amp;lt;FORMAT&amp;gt; 或者也可以手动创建文件content/&amp;lt;CATEGORY&amp;gt;/&amp;lt;FILE&amp;gt;.&amp;lt;FORMAT&amp;gt;，但此时也需要手动提供元数据。
+添加主题 在启动之前，需要给Hugo添加一个主题来渲染页面。
+ 主题选取可参考themes.gohugo.io
+ 以Hugo官方教程Quick Start中推荐的主题Ananke-theme为例。
+在很多Hugo主题的教程中，都推荐使用git submodule的方式添加主题。其背后的逻辑是，整个网站中的文件都托管在Git中，即整个blog是一个Git仓库，网站的主题文件位于themes文件夹下面，作为blog的子模块被添加进来。
+目录结构如下：
+|-- blog: git |---- ... |---- themes |-------- ananke: git-submodule |-------- another-theme: another-git-submodule 如果不想blog被Git托管，也可以直接使用git clone命令将主题加载到themes文件夹下面。如：</description>
+    </item>
+    
+  </channel>
+</rss>
