@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://konanok.github.io/sitemap.xml
