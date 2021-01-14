@@ -29,7 +29,7 @@
 <meta property="og:description" content="konanok&#39;s blog" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://konanok.github.io/tags/blog/" />
-<meta property="og:updated_time" content="2021-01-11T15:18:15+08:00" />
+<meta property="og:updated_time" content="2021-01-14T22:12:47+08:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="blog"/>
 <meta name="twitter:description" content="konanok&#39;s blog"/>
@@ -128,35 +128,31 @@
 
   <header class="entry-header">
     <h2>
+      管理Hugo个人博客项目结构
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>此博客的项目结构 按照资源的类型，本博客拆分了4个子模块： 文章：konanok/notes 图片：konanok/images 网站：konano...</p>
+  </section>
+  <footer class="entry-footer">
+
+January 14, 2021&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;konanok
+</footer>
+  <a class="entry-link" aria-label="post link to 管理Hugo个人博客项目结构" href="https://konanok.github.io/posts/p1610633567565/"></a>
+</article>
+<article class="post-entry tag-entry"> 
+
+  <header class="entry-header">
+    <h2>
       使用Hugo和GithubPages搭建个人博客
     </h2>
   </header>
   <section class="entry-content">
-    <p>本文内容来源于自己的实践及Hugo官方文档、Github Pages官方文档。
- 安装Hugo macOS系统中，可以使用Homebrew来安装Hugo的二进制文件：
-brew install hugo 安装完成后，检查Hugo是否安装成功：
-hugo version 新建博客网站 hugo new site blog 此命令会在当前文件夹下面创建一个名为blog的文件夹，里面就是Hugo创建的静态网站的文件。
- 上述命令中的blog可以替换为任意名称。
- 对此网站对所有操作均需要进入此网站的根目录下，即blog目录中。切换当前路径：
-cd blog 创建第一篇文章 hugo new posts/使用Hugo和GithubPages搭建个人博客.md 此命令会在content/posts目录下面创建文件使用Hugo和GithubPages搭建个人博客.md，并且在文件顶部自动生成了yaml格式的元数据，来声明此文件的相关信息。如本文生成的元数据是：
-title: &#34;使用Hugo和GithubPages搭建个人博客&#34; date: 2021-01-11T15:18:15&#43;08:00 draft: true  其中：
-title是文章的标题
-date是创建此文章的时间戳
-draft: true表示此文章是草稿类型的
-  这些元数据在Hugo的正式名称是front matter，除了yaml之外，Hugo还支持toml和json格式。
-更多的配置项可查看Hugo的官方文档Front Matter。
- 此命令的一般格式为：
-hugo new &lt;CATEGORY&gt;/&lt;FILE&gt;.&lt;FORMAT&gt; 或者也可以手动创建文件content/&lt;CATEGORY&gt;/&lt;FILE&gt;.&lt;FORMAT&gt;，但此时也需要手动提供元数据。
-添加主题 在启动之前，需要给Hugo添加一个主题来指定渲染页面的样式。
- 主题选取可参考themes.gohugo.io。
- 这里使用Hugo官方文档Quick Start中推荐的主题Ananke-theme。
-在很多Hugo主题的教程中，都推荐使用git submodule的方式添加主题。其背后的逻辑是，整个网站中的文件都托管在Git中，即整个blog是一个Git仓库，网站的主题文件位于themes文件夹下面，作为blog的子模块被添加进来。
-目录结构如下：
-. ├── blog: git │ ├── ... │ ├── themes │ │ ├── ananke: git-submodule │ │ ├── another-theme: another-git-submodule 如果不想blog被Git托管，也可以直接使用git clone命令将主题加载到themes文件夹下面。如：...</p>
+    <p>本文内容来源于自己的实践及Hugo官方文档、Github Pages官方文档。 安装Hugo macOS系统中，可以使用Homebrew来安装Hu...</p>
   </section>
   <footer class="entry-footer">
 
-January 11, 2021&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;konanok
+January 11, 2021&nbsp;·&nbsp;5 分钟&nbsp;·&nbsp;konanok
 </footer>
   <a class="entry-link" aria-label="post link to 使用Hugo和GithubPages搭建个人博客" href="https://konanok.github.io/posts/p1610349495425/"></a>
 </article>
