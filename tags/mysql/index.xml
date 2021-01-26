@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysql on 迷宮の十字路</title>
+    <link>https://konanok.github.io/tags/mysql/</link>
+    <description>Recent content in mysql on 迷宮の十字路</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 25 Jan 2021 18:55:13 +0800</lastBuildDate><atom:link href="https://konanok.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安装常用的Docker镜像</title>
+      <link>https://konanok.github.io/posts/p1611572113136/</link>
+      <pubDate>Mon, 25 Jan 2021 18:55:13 +0800</pubDate>
+      
+      <guid>https://konanok.github.io/posts/p1611572113136/</guid>
+      <description>MySQL 官方网站： MySQL MySQL Docker Hub 安装Docker镜像 docker pull mysql 启动MySQL容器 docker run -d \ --name mysql \ -e MYSQL_ROOT_PASSWORD=my-secret-pw \ -p 3306:3306 \ -v /data/mysql:/var/lib/mysql \ mysql 上述命令中： -d表示后台运行，--na</description>
+    </item>
+    
+  </channel>
+</rss>
