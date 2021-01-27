@@ -31,7 +31,7 @@
       <pubDate>Mon, 25 Jan 2021 15:20:01 +0800</pubDate>
       
       <guid>https://konanok.github.io/posts/p1611559201794/</guid>
-      <description>安装环境 ➜ ~ screenfetch ./+o+- konanok@workstation yyyyy- -yyyyyy+ OS: Ubuntu 20.10 groovy ://+//////-yyyyyyo Kernel: x86_64 Linux 5.8.0-40-generic .++ .:/++++++/-.+sss/` Uptime: 1h 28m .:++o: /++++++++/:--:/- Packages: 1802 o:+o+:++.`..```.-/oo+++++/ Shell: zsh 5.8 .:+o:+o/. `+sssoo+/ Disk: 12G / 100G (12%) .++/+:+oo+o:` /sssooo. CPU: Intel Core i7-6700HQ @ 8x 3.5GHz [53.0°C] /+++//+:`oo+o /::--:. GPU: GeForce GTX 965M \+/+o+++`o++o ++////. RAM: 639MiBMiB / 15894MiB .++.o+++oo+:`</description>
+      <description>前言 Docker官方文档Install Docker Engine on Ubuntu里详细描述了如何在Ubuntu上进行安装和配置。 Ubuntu安装在旧笔记本上，作为个</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@
       <pubDate>Mon, 11 Jan 2021 15:18:15 +0800</pubDate>
       
       <guid>https://konanok.github.io/posts/p1610349495425/</guid>
-      <description>本文内容来源于自己的实践及Hugo官方文档、Github Pages官方文档。 安装Hugo macOS系统中，可以使用Homebrew来安装Hu</description>
+      <description>前言 本文内容来源于自己的实践及： Hugo官方文档 Github Pages官方文档 安装Hugo macOS系统中，可以使用Homebrew来安装Hugo的二</description>
     </item>
     
     <item>
