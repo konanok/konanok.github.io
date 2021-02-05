@@ -31,7 +31,7 @@
       <pubDate>Mon, 25 Jan 2021 17:17:40 +0800</pubDate>
       
       <guid>https://konanok.github.io/posts/p1611566260672/</guid>
-      <description>前言 众所周知，在Docker中更新镜像并重新部署是一件特别麻烦的事，一般都要经过以下四个步骤： 停止容器：docker stop xxx 删除容器：docke</description>
+      <description>众所周知，在Docker中更新镜像并重新部署是一件特别麻烦的事，一般都要经过以下四个步骤： 停止容器：docker stop xxx 删除容器：docker rm</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@
       <pubDate>Mon, 25 Jan 2021 15:20:01 +0800</pubDate>
       
       <guid>https://konanok.github.io/posts/p1611559201794/</guid>
-      <description>前言 Docker官方文档Install Docker Engine on Ubuntu里详细描述了如何在Ubuntu上进行安装和配置。 Ubuntu安装在旧笔记本上，作为个</description>
+      <description>安装环境 Ubuntu安装在旧笔记本上，作为个人服务器使用。详细信息如下： ➜ ~ screenfetch ./+o+- konanok@workstation yyyyy- -yyyyyy+ OS: Ubuntu 20.10 groovy ://+//////-yyyyyyo Kernel: x86_64 Linux 5.8.0-40-generic .++ .:/++++++/-.+sss/` Uptime: 1h 28m .:++o: /++++++++/:--:/- Packages: 1802 o:+o+:++.`..```.-/oo+++++/ Shell: zsh 5.8 .:+o:+o/. `+sssoo+/ Disk: 12G /</description>
     </item>
     
     <item>
@@ -58,7 +58,7 @@
       <pubDate>Mon, 11 Jan 2021 15:18:15 +0800</pubDate>
       
       <guid>https://konanok.github.io/posts/p1610349495425/</guid>
-      <description>前言 本文内容来源于自己的实践及： Hugo官方文档 Github Pages官方文档 安装Hugo macOS系统中，可以使用Homebrew来安装Hugo的二</description>
+      <description>本文内容来源于自己的实践及： Hugo官方文档 Github Pages官方文档 安装Hugo macOS系统中，可以使用Homebrew来安装Hugo的二进制</description>
     </item>
     
   </channel>

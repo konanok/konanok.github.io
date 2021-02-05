@@ -186,7 +186,7 @@ January 31, 2021&nbsp;·&nbsp;6 分钟&nbsp;·&nbsp;konanok
     </details>
   </div>
   <div class="post-content">
-<h3 id="概述">概述<a hidden class="anchor" aria-hidden="true" href="#概述">#</a></h3>
+<h2 id="概述">概述<a hidden class="anchor" aria-hidden="true" href="#概述">#</a></h2>
 <p><strong>union-find</strong>是一种解决<strong>动态连通性</strong>问题的算法，简单来说就是，<strong>动态输入对象之间的“相连”关系，来判断给定对象之间是否“相连”</strong>。</p>
 <p>这里的假设<strong>相连</strong>是一种<strong>等价关系</strong>，这也就意味着它具有以下几个性质：</p>
 <ul>
@@ -197,7 +197,7 @@ January 31, 2021&nbsp;·&nbsp;6 分钟&nbsp;·&nbsp;konanok
 <p>等价关系能够将对象划分为<strong>等价类</strong>，当且仅当两个对象相连时，它们才属于同一个等价类。</p>
 <p>在其他术语中，对象也被称为<strong>触点</strong>，等价类也被称为<strong>连通分量</strong>或简称为<strong>分量</strong>。</p>
 <p>为了简化算法的描述，使用整数来标识对象，输入一对整数来表示这两个对象是相连的。</p>
-<h3 id="抽象定义">抽象定义<a hidden class="anchor" aria-hidden="true" href="#抽象定义">#</a></h3>
+<h2 id="抽象定义">抽象定义<a hidden class="anchor" aria-hidden="true" href="#抽象定义">#</a></h2>
 <p>根据union-find算法常用的操作，给出其抽象定义如下：</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">/**
 </span><span style="color:#75715e"> * Union-Find算法的抽象定义
@@ -243,8 +243,8 @@ January 31, 2021&nbsp;·&nbsp;6 分钟&nbsp;·&nbsp;konanok
         <span style="color:#66d9ef">return</span> count<span style="color:#f92672">;</span>
     <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
-</code></pre></div><h3 id="实现">实现<a hidden class="anchor" aria-hidden="true" href="#实现">#</a></h3>
-<h4 id="quick-find算法">quick-find算法<a hidden class="anchor" aria-hidden="true" href="#quick-find算法">#</a></h4>
+</code></pre></div><h2 id="实现">实现<a hidden class="anchor" aria-hidden="true" href="#实现">#</a></h2>
+<h3 id="quick-find算法">quick-find算法<a hidden class="anchor" aria-hidden="true" href="#quick-find算法">#</a></h3>
 <p>此算法的思路是：使用一个<code>N</code>个大小的整形数组<code>int[] components</code>，存储每个对象所属的连通分量标识符。</p>
 <ul>
 <li>初始化时，每个对象处于<strong>相互独立</strong>的状态，因此可以使用其<strong>自身的标识符</strong>作为其<strong>所属连通分量的标识符</strong>。</li>
@@ -304,7 +304,7 @@ January 31, 2021&nbsp;·&nbsp;6 分钟&nbsp;·&nbsp;konanok
 <p>即：<code>(2 + N + 1)</code> ~ <code>(2 + N + (N - 1))</code>。</p>
 </blockquote>
 <p>假设使用quick-find算法来解决动态连通性的问题，并且最后只得到了一个连通分量，那么至少将调用<code>N-1</code>次<code>union()</code>，即至少进行<code>(N+3)(N-1)</code> ~ <code>N^2</code>次数组访问。由此分析推广可知，quick-find算法的运行时间对于最终只能得到少数连通分量的一般应用是<strong>平方</strong>级别的。</p>
-<h4 id="quick-union算法">quick-union算法<a hidden class="anchor" aria-hidden="true" href="#quick-union算法">#</a></h4>
+<h3 id="quick-union算法">quick-union算法<a hidden class="anchor" aria-hidden="true" href="#quick-union算法">#</a></h3>
 <p>基于quick-find算法的缺陷考虑，如果<code>union()</code>方法中只改变<code>p</code>和<code>q</code>其中一个元素的值，如何改进<code>find()</code>算法来保证能正确的找到某个对象的分量标识符。</p>
 <p>先举一个简单的例子，假设有<code>5</code>个对象：</p>
 <ol>
@@ -366,7 +366,7 @@ January 31, 2021&nbsp;·&nbsp;6 分钟&nbsp;·&nbsp;konanok
 <blockquote>
 <p>上面这段话出自《算法（第4版）》<strong>p143 ~ p144</strong>的内容，具体为什么是<code>2i+3</code>，<code>2(1+2+3+...+N)</code> ~ <code>N^2</code>，还没有想明白，先占个坑，以后搞清楚了再做解释。</p>
 </blockquote>
-<h4 id="加权quick-union算法">加权quick-union算法<a hidden class="anchor" aria-hidden="true" href="#加权quick-union算法">#</a></h4>
+<h3 id="加权quick-union算法">加权quick-union算法<a hidden class="anchor" aria-hidden="true" href="#加权quick-union算法">#</a></h3>
 <p>简单的修改quick-union算法就可以避免最差情况的发生：记录每棵树的大小，每次连接两棵树时，总是将较小的树连接到较大的树上。这种算法就叫做加权quick-union算法。</p>
 <p>对于加权quick-union算法的实现，需要引入一个额外的数组来记录树的大小，并且只需要由树的根节点记录即可。</p>
 <p>代码实现如下：</p>

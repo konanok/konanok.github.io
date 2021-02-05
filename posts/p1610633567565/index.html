@@ -184,7 +184,7 @@ January 14, 2021&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;konanok
     </details>
   </div>
   <div class="post-content">
-<h3 id="此博客的项目结构">此博客的项目结构<a hidden class="anchor" aria-hidden="true" href="#此博客的项目结构">#</a></h3>
+<h2 id="此博客的项目结构">此博客的项目结构<a hidden class="anchor" aria-hidden="true" href="#此博客的项目结构">#</a></h2>
 <p>按照资源的类型，本博客拆分了4个子模块：</p>
 <ul>
 <li>文章：<a href="https://github.com/konanok/notes">konanok/notes</a></li>
@@ -210,14 +210,14 @@ January 14, 2021&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;konanok
 │   ├── ...
 </code></pre></div><p>在<a href="https://code.visualstudio.com/">VSCode</a>文件树中的更直观的视角：</p>
 <p><img src="https://raw.githubusercontent.com/konanok/images/main/i1610639782452.png" alt="i1610639782452.png"></p>
-<h3 id="faqs">FAQs<a hidden class="anchor" aria-hidden="true" href="#faqs">#</a></h3>
-<h4 id="这样组织结构有什么好处">这样组织结构有什么好处？<a hidden class="anchor" aria-hidden="true" href="#这样组织结构有什么好处">#</a></h4>
+<h2 id="faqs">FAQs<a hidden class="anchor" aria-hidden="true" href="#faqs">#</a></h2>
+<h3 id="这样组织结构有什么好处">这样组织结构有什么好处？<a hidden class="anchor" aria-hidden="true" href="#这样组织结构有什么好处">#</a></h3>
 <ol>
 <li>独立管理资源与网站的版本；</li>
 <li>方便切换其他博客，如<a href="https://hexo.io/zh-cn/">Hexo</a>、<a href="https://jekyllrb.com/">Jekyll</a>；</li>
 <li>使用Github做图床，分散对每个仓库<a href="https://docs.github.com/cn/free-pro-team@latest/github/managing-large-files/about-storage-and-bandwidth-usage">1GB</a>的限制。</li>
 </ol>
-<h4 id="图片为什么不放在content路径下这样可以使用相对路径以减少http请求">图片为什么不放在<strong>content</strong>路径下？这样可以使用相对路径以减少http请求<a hidden class="anchor" aria-hidden="true" href="#图片为什么不放在content路径下这样可以使用相对路径以减少http请求">#</a></h4>
+<h3 id="图片为什么不放在content路径下这样可以使用相对路径以减少http请求">图片为什么不放在<strong>content</strong>路径下？这样可以使用相对路径以减少http请求<a hidden class="anchor" aria-hidden="true" href="#图片为什么不放在content路径下这样可以使用相对路径以减少http请求">#</a></h3>
 <ol>
 <li>Hugo不支持相对路径；</li>
 <li>使用绝对路径时，单独复制文章到其他支持<strong>markdown</strong>的编辑器也可以正常显示；</li>

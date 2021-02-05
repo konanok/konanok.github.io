@@ -13,7 +13,7 @@
       <pubDate>Mon, 25 Jan 2021 17:17:40 +0800</pubDate>
       
       <guid>https://konanok.github.io/posts/p1611566260672/</guid>
-      <description>前言 众所周知，在Docker中更新镜像并重新部署是一件特别麻烦的事，一般都要经过以下四个步骤： 停止容器：docker stop xxx 删除容器：docke</description>
+      <description>众所周知，在Docker中更新镜像并重新部署是一件特别麻烦的事，一般都要经过以下四个步骤： 停止容器：docker stop xxx 删除容器：docker rm</description>
     </item>
     
   </channel>
