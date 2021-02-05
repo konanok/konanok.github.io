@@ -6,7 +6,34 @@
     <description>Recent content in 标签 on 迷宮の十字路</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 25 Jan 2021 18:55:13 +0800</lastBuildDate><atom:link href="https://konanok.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jan 2021 09:34:41 +0800</lastBuildDate><atom:link href="https://konanok.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>algorithm</title>
+      <link>https://konanok.github.io/tags/algorithm/</link>
+      <pubDate>Sun, 31 Jan 2021 09:34:41 +0800</pubDate>
+      
+      <guid>https://konanok.github.io/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>union-find</title>
+      <link>https://konanok.github.io/tags/union-find/</link>
+      <pubDate>Sun, 31 Jan 2021 09:34:41 +0800</pubDate>
+      
+      <guid>https://konanok.github.io/tags/union-find/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>算法</title>
+      <link>https://konanok.github.io/tags/%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Sun, 31 Jan 2021 09:34:41 +0800</pubDate>
+      
+      <guid>https://konanok.github.io/tags/%E7%AE%97%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>docker</title>
       <link>https://konanok.github.io/tags/docker/</link>

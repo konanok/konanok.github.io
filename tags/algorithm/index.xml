@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algorithm on 迷宮の十字路</title>
+    <link>https://konanok.github.io/tags/algorithm/</link>
+    <description>Recent content in algorithm on 迷宮の十字路</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 31 Jan 2021 09:34:41 +0800</lastBuildDate><atom:link href="https://konanok.github.io/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>算法：Union-Find</title>
+      <link>https://konanok.github.io/posts/p1612056881218/</link>
+      <pubDate>Sun, 31 Jan 2021 09:34:41 +0800</pubDate>
+      
+      <guid>https://konanok.github.io/posts/p1612056881218/</guid>
+      <description>概述 union-find是一种解决动态连通性问题的算法，简单来说就是，动态输入对象之间的“相连”关系，来判断给定对象之间是否“相连”。 这里的</description>
+    </item>
+    
+  </channel>
+</rss>
